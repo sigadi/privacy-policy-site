@@ -1,0 +1,86 @@
+1:"$Sreact.fragment"
+2:I[39756,["/privacy-policy-site/_next/static/chunks/ff1a16fafef87110.js","/privacy-policy-site/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+3:I[37457,["/privacy-policy-site/_next/static/chunks/ff1a16fafef87110.js","/privacy-policy-site/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+5:I[97367,["/privacy-policy-site/_next/static/chunks/ff1a16fafef87110.js","/privacy-policy-site/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+8:I[97367,["/privacy-policy-site/_next/static/chunks/ff1a16fafef87110.js","/privacy-policy-site/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+a:I[97367,["/privacy-policy-site/_next/static/chunks/ff1a16fafef87110.js","/privacy-policy-site/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+c:I[68027,[],"default"]
+:HL["/privacy-policy-site/_next/static/chunks/3e29827ed37dd056.css","style"]
+:HL["/privacy-policy-site/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/privacy-policy-site/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"z4nUcecylvIw8hzeQRJq1","c":["","apps","kataku"],"q":"","i":false,"f":[[["",{"children":["apps",{"children":[["slug","kataku","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/privacy-policy-site/_next/static/chunks/3e29827ed37dd056.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"style":{"margin":0,"fontFamily":"system-ui, Arial","background":"#f5f6f8","color":"#1f2937"},"children":[["$","header",null,{"style":{"background":"#111","color":"white","padding":"16px 40px","fontWeight":"bold"},"children":"Privacy Policy"}],["$","main",null,{"style":{"display":"flex","justifyContent":"center","padding":"40px"},"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"style":{"textAlign":"center","padding":"20px","fontSize":"14px","color":"#6b7280"},"children":"© 2026 Developer"}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L8",null,{"children":"$L9"}],["$","div",null,{"hidden":true,"children":["$","$La",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lb"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$c",[]],"S":true}
+d:T866,# Privacy Policy - Kataku
+
+Last updated: 2026
+
+Kataku is an educational application designed to help children learn vocabulary pronunciation through interactive learning activities.
+
+This Privacy Policy explains how the application handles information when used by users, including children.
+
+---
+
+## Information Collection
+
+Kataku does not collect, store, or share any personal information from users.
+
+The application may request access to the device microphone to enable speech recognition features. This feature allows users to practice vocabulary pronunciation within the app.
+
+Microphone input is used only for the purpose of speech recognition and is not stored, recorded, or transmitted by the application.
+
+---
+
+## Permissions Used
+
+The application may request the following permission:
+
+### Microphone
+Used to allow speech recognition so users can practice pronunciation during learning activities.
+
+The application does not record or store voice data.
+
+---
+
+## Third-Party Services
+
+Kataku may use third-party services that may process data according to their own privacy policies. These services may include:
+
+- Google Speech Recognition
+- Google Play Services
+
+Please review their privacy policies for more information.
+
+---
+
+## Children's Privacy
+
+Kataku is designed for children as an educational application.
+
+The application does not knowingly collect personal information from children.  
+If a parent or guardian believes that a child has provided personal information, please contact us and we will promptly remove such information.
+
+---
+
+## Data Security
+
+We value the security of users' information. Since Kataku does not collect personal data, there is minimal risk related to data storage or misuse.
+
+---
+
+## Changes to This Privacy Policy
+
+This Privacy Policy may be updated from time to time. Any changes will be posted on this page with an updated revision date.
+
+Users are advised to review this page periodically for any updates.
+
+---
+
+## Contact
+
+If you have any questions about this Privacy Policy, please contact:
+
+Email: dolananrisingforce@gmail.com4:["$","div",null,{"style":{"background":"white","padding":"40px","borderRadius":"10px","maxWidth":"800px","width":"100%","boxShadow":"0 10px 25px rgba(0,0,0,0.05)","lineHeight":"1.7"},"children":["$","pre",null,{"style":{"whiteSpace":"pre-wrap","fontFamily":"inherit","color":"#374151"},"children":"$d"}]}]
+9:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+e:I[27201,["/privacy-policy-site/_next/static/chunks/ff1a16fafef87110.js","/privacy-policy-site/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+7:null
+b:[["$","title","0",{"children":"Create Next App"}],["$","meta","1",{"name":"description","content":"Generated by create next app"}],["$","link","2",{"rel":"icon","href":"/privacy-policy-site/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$Le","3",{}]]

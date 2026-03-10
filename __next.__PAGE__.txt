@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[22016,["/privacy-policy-site/_next/static/chunks/7c92e96509cd355e.js"],""]
+3:I[97367,["/privacy-policy-site/_next/static/chunks/ff1a16fafef87110.js","/privacy-policy-site/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"z4nUcecylvIw8hzeQRJq1","rsc":["$","$1","c",{"children":[["$","div",null,{"style":{"background":"white","padding":"40px","borderRadius":"10px","maxWidth":"700px","width":"100%","boxShadow":"0 10px 25px rgba(0,0,0,0.05)"},"children":[["$","h1",null,{"children":"Privacy Policy"}],["$","p",null,{"children":"Select an application:"}],["$","ul",null,{"style":{"paddingLeft":"20px"},"children":[["$","li","kataku",{"style":{"marginBottom":"10px"},"children":["$","$L2",null,{"href":"/apps/kataku","style":{"textDecoration":"none","color":"#2563eb","fontWeight":"500"},"children":"Kataku App"}]}]]}]]}],[["$","script","script-0",{"src":"/privacy-policy-site/_next/static/chunks/7c92e96509cd355e.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null

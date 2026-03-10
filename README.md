@@ -1,36 +1,183 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Privacy Policy Website
 
-## Getting Started
+Website ini digunakan untuk menampilkan halaman **Privacy Policy** untuk berbagai aplikasi dalam satu repository.
 
-First, run the development server:
+Website dibuat menggunakan **Next.js (App Router)** dan dirancang agar setiap aplikasi memiliki URL privacy policy sendiri.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Contoh URL hasil deploy:
+
+```
+https://username.github.io/privacy-policy-site/apps/kataku
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Struktur Project
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+privacy-policy-site
+│
+├── app
+│   ├── page.tsx
+│   │
+│   └── apps
+│       └── [slug]
+│           └── page.tsx
+│
+├── content
+│   └── apps
+│       ├── kataku
+│       │   └── privacy-policy.md
+│       │
+│       └── contoh-aplikasi
+│           └── privacy-policy.md
+```
 
-## Learn More
+Folder **content/apps** berisi semua privacy policy untuk setiap aplikasi.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Menambahkan Privacy Policy Baru
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Untuk menambahkan privacy policy aplikasi baru, ikuti langkah berikut.
 
-## Deploy on Vercel
+## 1. Buat Folder Aplikasi
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Masuk ke folder:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+content/apps
+```
+
+Buat folder baru dengan nama aplikasi (slug).
+
+Contoh:
+
+```
+content/apps/aplikasi-baru
+```
+
+---
+
+## 2. Buat File Privacy Policy
+
+Di dalam folder aplikasi tersebut, buat file:
+
+```
+privacy-policy.md
+```
+
+Contoh struktur:
+
+```
+content/apps/aplikasi-baru/privacy-policy.md
+```
+
+---
+
+## 3. Isi Privacy Policy
+
+Contoh isi file:
+
+```
+# Privacy Policy - Aplikasi Baru
+
+Last updated: 2026
+
+Aplikasi Baru adalah aplikasi yang dibuat untuk membantu pengguna belajar sesuatu.
+
+## Information Collection
+
+Aplikasi ini tidak mengumpulkan informasi pribadi pengguna.
+
+## Third Party Services
+
+Aplikasi ini dapat menggunakan layanan pihak ketiga seperti:
+
+- Google Play Services
+
+## Contact
+
+Jika ada pertanyaan silakan hubungi:
+
+developer@email.com
+```
+
+---
+
+## 4. Jalankan Website Secara Lokal
+
+Jalankan server development:
+
+```
+npm run dev
+```
+
+Buka di browser:
+
+```
+http://localhost:3000/apps/aplikasi-baru
+```
+
+Jika halaman muncul, berarti privacy policy berhasil ditambahkan.
+
+---
+
+# Menambahkan Aplikasi ke Halaman Utama
+
+Buka file:
+
+```
+app/page.tsx
+```
+
+Tambahkan aplikasi pada daftar:
+
+```
+const apps = [
+  { slug: "kataku", name: "Kataku App" },
+  { slug: "aplikasi-baru", name: "Aplikasi Baru" }
+]
+```
+
+---
+
+# Build Website
+
+Untuk membuat versi static website:
+
+```
+npm run build
+```
+
+Hasil build akan berada di folder:
+
+```
+/out
+```
+
+Folder ini dapat di-deploy ke **GitHub Pages**.
+
+---
+
+# Tujuan Project
+
+Project ini dibuat untuk:
+
+* menyediakan halaman Privacy Policy untuk berbagai aplikasi
+* mempermudah pengelolaan banyak aplikasi dalam satu repository
+* memenuhi persyaratan halaman privacy policy pada Google Play
+* membuat URL yang rapi dan mudah diakses
+
+Contoh URL:
+
+```
+/apps/kataku
+/apps/aplikasi-baru
+```
+
+---
+
+# Lisensi
+
+Project ini bebas digunakan dan dimodifikasi sesuai kebutuhan.

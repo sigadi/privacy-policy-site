@@ -2,7 +2,8 @@ import Link from "next/link"
 
 export default function Home() {
   const apps = [
-    { slug: "kataku", name: "Kataku App" }
+    { slug: "kataku", name: "Kataku App" },
+    { slug: "reasign", name: "Reasign" }
   ]
 
   return (
